@@ -1,0 +1,121 @@
+.intro {
+  width: 100vw;
+  height: auto;
+  margin: 15vh auto 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro>div {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.intro>div>h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.intro>div>p {
+  line-height: 1rem;
+  font-size: 0.8rem;
+  text-align: justify;
+  margin: 2rem 0;
+}
+.intro>div>a {
+  margin-top: auto;
+}
+.intro>img {
+  aspect-ratio: 1/0.7;
+  width: 40%;
+  align-self: center;
+}
+
+
+
+
+.offer-container {
+  width: 90vw;
+  height: auto;
+  margin: 10vh auto;
+}
+.offer-container>h2 {
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.offer-container>div {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.offer-container>div>.offer {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid var(--primary-btn-color);
+  border-radius: 10rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+.offer>div {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.4rem solid var(--primary-btn-color);
+}
+.offer>div>h2 {
+  color: black;
+}
+.offer>p {
+  position: relative;
+  width: 80%;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding: 2rem 1rem;
+  border: 0.5rem solid var(--primary-btn-color);
+  border-top-color: white;
+  border-left-color: white;
+  border-bottom-color: white;
+  border-radius: 10rem;
+}
+
+.offer>p>span {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    height: auto;
+  }
+  .intro>div {
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .intro>img {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+  .offer-container {
+    height: auto;
+  }
+  .offer-container>div>.offer {
+    width: 100%;
+    height: auto;
+  }
+}
+
